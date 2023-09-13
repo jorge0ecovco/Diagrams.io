@@ -1,6 +1,6 @@
 name: SVG Generator
 on:
-  push:
+    workflow_dispatch:
     branches:
       - main
 
