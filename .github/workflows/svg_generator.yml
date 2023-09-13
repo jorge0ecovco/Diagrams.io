@@ -1,8 +1,8 @@
 name: SVG Generator
 on:
     workflow_dispatch:
-    branches:
-      - main
+        branches:
+        - main
 
 jobs:
   build:
