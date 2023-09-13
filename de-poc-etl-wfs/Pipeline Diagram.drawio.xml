@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2023-09-13T13:14:46.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="hjsHa5-udGrcLygq9Opy" version="21.7.3" type="google" pages="4">
+  <diagram id="PcU6hCyZVMZG3pBLaE2k" name="P1 Español">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-51" value="Lectura" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="359" y="170" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-50" value="Transformación" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="360" y="320" width="210" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-49" value="Carga" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="640" y="310" width="260" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-3" value="Configuración del entorno" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;container=0;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="167" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmFnVScG9a4elYzJiQu-1" value="Fin" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=8;align=center;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="45" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="SXmFnVScG9a4elYzJiQu-2" target="NzKr6Q8BXzXMXZG9UsLj-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SXmFnVScG9a4elYzJiQu-2" value="Inicio" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=8;align=center;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="91" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="NzKr6Q8BXzXMXZG9UsLj-1" target="xGDrYkLAPi4LHNoD_GdK-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzKr6Q8BXzXMXZG9UsLj-1" value="Inicializa las variables del entorno&amp;nbsp;de producción por defecto." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="61" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-1" target="xGDrYkLAPi4LHNoD_GdK-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-1" value="Consulta las credenciales de los bloques de prefect." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="61" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-2" target="xGDrYkLAPi4LHNoD_GdK-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-2" value="Configura las variables de entorno según el parámetro de ejecución recibido." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="61" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-4" target="xGDrYkLAPi4LHNoD_GdK-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-4" value="Lista los archivos que están dentro del bucket y los ordena según prioridad (Primero &quot;PU&quot;, luego ...)" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="44" y="320" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-5" target="xGDrYkLAPi4LHNoD_GdK-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-5" target="SXmFnVScG9a4elYzJiQu-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="464" y="10" />
+              <mxPoint x="1060" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-5" value="Por cada archivo" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;fontSize=8;fontFamily=Verdana;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+          <mxGeometry x="369" y="40" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-6" target="xGDrYkLAPi4LHNoD_GdK-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-6" value="Descarga el archivo" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="387" y="110" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-9" target="xGDrYkLAPi4LHNoD_GdK-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-9" value="Se lee el archivo con pandas y se devuelve un dataFrame" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="387" y="254" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-10" target="xGDrYkLAPi4LHNoD_GdK-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-10" value="Se determina si el archivo es un xls/xlsx o un txt/csv" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="387" y="199" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-14" target="xGDrYkLAPi4LHNoD_GdK-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-14" value="Del nombre del archivo se obtiene la empresa, tipo de información, y fecha de la información contenida en el archivo." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="387" y="347.5" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-15" target="xGDrYkLAPi4LHNoD_GdK-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-15" value="De acuerdo al tipo de información del archivo se valida de qué software proviene el archivo para hacer un proceso de limpieza específico según el software." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="387" y="423.5" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="WC7JtwFQw4FdeNCmq0Mo-1" target="xGDrYkLAPi4LHNoD_GdK-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="630" />
+              <mxPoint x="590" y="239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WC7JtwFQw4FdeNCmq0Mo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-16" target="WC7JtwFQw4FdeNCmq0Mo-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-16" value="La información se limpia siguiendo las pautas del software y el tipo de datos. Esto incluye la corrección de formatos de fechas y columnas, la eliminación de totales acumulados y el manejo de valores faltantes o vacíos." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="387" y="503.5" width="154" height="76.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-18" target="xGDrYkLAPi4LHNoD_GdK-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-18" value="Creación del archivo parquet con la información procesada que se almacena local." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="686" y="329" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-19" target="xGDrYkLAPi4LHNoD_GdK-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-28" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xGDrYkLAPi4LHNoD_GdK-27" connectable="0" vertex="1">
+          <mxGeometry x="-0.52" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-19" target="xGDrYkLAPi4LHNoD_GdK-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="763" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-30" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xGDrYkLAPi4LHNoD_GdK-29" connectable="0" vertex="1">
+          <mxGeometry x="-0.9243" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-52" value="Siguiente archivo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=2" parent="xGDrYkLAPi4LHNoD_GdK-29" connectable="0" vertex="1">
+          <mxGeometry x="-0.2901" relative="1" as="geometry">
+            <mxPoint x="-73" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-19" value="Info. válida" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="713" y="189" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-20" target="xGDrYkLAPi4LHNoD_GdK-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-20" value="Carga de la información a BigQuery en las tablas de &quot;ST&quot; (staging/ pre-validación)" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="686" y="452" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-21" target="xGDrYkLAPi4LHNoD_GdK-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-21" value="Mueve el archivo en el bucket a la carpeta de procesados" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="686" y="513" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-25" target="xGDrYkLAPi4LHNoD_GdK-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-25" value="Carga del archivo parquet al bucket en la carpeta de parquets." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="686" y="390" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#10739e;fillColor=#b1ddf0;strokeWidth=2;" parent="1" source="xGDrYkLAPi4LHNoD_GdK-26" target="xGDrYkLAPi4LHNoD_GdK-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="593" />
+              <mxPoint x="940" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xGDrYkLAPi4LHNoD_GdK-26" value="Elimina los archivos locales" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="686" y="573" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WC7JtwFQw4FdeNCmq0Mo-1" value="El DataFrame se estandariza para que coincida con la estructura estándar del tipo de información. Los datos se ajustan a las columnas equivalentes en el estándar, logrando una homologación entre los campos del software original y los campos de la estructura estándar." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="388" y="599" width="152" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="OszI3pKgwVQqITJVTDGA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;strokeWidth=0.5;strokeColor=default;endArrow=none;endFill=0;" parent="1" source="B-DPvH_Zy37061HOk-M5-1" target="xGDrYkLAPi4LHNoD_GdK-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-DPvH_Zy37061HOk-M5-1" value="Validaciones aplicadas&lt;br&gt;&lt;br&gt;1. Que todas las cuentas se encuentren en la tabla del PUC&lt;br&gt;2. Comparación del valor total de débitos y créditos de los archivos." style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;verticalAlign=top;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="960" y="186" width="120" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="OszI3pKgwVQqITJVTDGA-2" value="Glosario de términos.&lt;br&gt;&lt;br&gt;&lt;ol&gt;&lt;li&gt;Entorno:&amp;nbsp;el entorno se refiere al contexto y las condiciones en las que un programa se ejecuta, incluyendo variables, configuraciones, bibliotecas y recursos disponibles en ese momento.&lt;/li&gt;&lt;li&gt;Credenciales: Llaves de acceso a recursos privados.&lt;/li&gt;&lt;li&gt;Bucket: Contenedor o espacio de almacenamiento en la nube. Similar a una carpeta.&lt;/li&gt;&lt;li&gt;Pandas: Pandas es una biblioteca de programación en Python utilizada para el análisis y manipulación de datos tabulares, como hojas de cálculo y bases de datos.&lt;/li&gt;&lt;li&gt;Dataframe:Un DataFrame es una estructura de datos bidimensional en pandas (biblioteca de Python), similar a una tabla en una base de datos o una hoja de cálculo en Excel. Permite organizar y manipular datos en filas y columnas de manera eficiente.&lt;/li&gt;&lt;li&gt;Estructura estándar: Es un grupo de campos que recoge la información necesaria para analizar test de información contable. Existe una por cada tipo de información.&lt;/li&gt;&lt;li&gt;Archivo parquet:&amp;nbsp;Parquet es un formato de archivo de almacenamiento columnar optimizado para análisis de datos. Se utiliza comúnmente en entornos de Big Data y procesamiento distribuido, ya que permite una lectura y escritura eficiente de datos, así como una compresión efectiva, lo que lo hace ideal para trabajar con conjuntos de datos grandes.&lt;/li&gt;&lt;li&gt;BigQuery:&amp;nbsp;BigQuery es un servicio de Google Cloud que proporciona un almacén de datos totalmente administrado y altamente escalable para análisis de datos y consultas SQL. Permite a los usuarios ejecutar consultas en conjuntos de datos muy grandes de manera rápida y eficiente, lo que lo convierte en una herramienta poderosa para el análisis de datos a gran escala.&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;verticalAlign=top;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="20" y="382.25" width="320" height="317.75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="P1 Inglés" id="nZ71Jl3bvsjiYb5WfYp0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-0" />
+        <mxCell id="z25bvIHVXSk-q51-dX3u-1" parent="z25bvIHVXSk-q51-dX3u-0" />
+        <mxCell id="z25bvIHVXSk-q51-dX3u-2" value="Reading" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;verticalAlign=top;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="359" y="170" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-3" value="Transformation" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;verticalAlign=top;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="360" y="320" width="210" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-4" value="Load" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;verticalAlign=top;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="640" y="310" width="260" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-5" value="Environment configuration" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;container=0;align=left;verticalAlign=top;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="40" y="80" width="167" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-6" value="End" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=8;align=center;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="1030" y="45" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-8" target="z25bvIHVXSk-q51-dX3u-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-8" value="Start" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=8;align=center;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="91" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-10" target="z25bvIHVXSk-q51-dX3u-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-10" value="Initialize the default production environment variables." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="61" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-12" target="z25bvIHVXSk-q51-dX3u-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-12" value="Retrieve the credentials for the Prefect blocks." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="61" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-14" target="z25bvIHVXSk-q51-dX3u-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-14" value="Configure the environment variables according to the received execution parameter." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="61" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-16" target="z25bvIHVXSk-q51-dX3u-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-16" value="List the files inside the bucket and sort them by priority (first &quot;PU&quot;, then ...)." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="44" y="320" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-19" target="z25bvIHVXSk-q51-dX3u-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-19" target="z25bvIHVXSk-q51-dX3u-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="464" y="10" />
+              <mxPoint x="1060" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-19" value="For each file" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;fontSize=8;fontFamily=Verdana;fillColor=#b1ddf0;strokeColor=#10739e;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="369" y="40" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-21" target="z25bvIHVXSk-q51-dX3u-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-21" value="Download the file." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="387" y="110" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-23" target="z25bvIHVXSk-q51-dX3u-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-23" value="The file is read using pandas, and a DataFrame is returned." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="387" y="254" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-25" target="z25bvIHVXSk-q51-dX3u-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-25" value="Determine if the file is an xls/xlsx or a txt/csv." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="387" y="199" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-27" target="z25bvIHVXSk-q51-dX3u-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-27" value="From the file name, extract the company, type of information, and date of the information contained in the file." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="387" y="347.5" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-29" target="z25bvIHVXSk-q51-dX3u-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-29" value="Based on the type of information in the file, validate which software the file comes from in order to perform a specific cleaning process according to the software." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="387" y="423.5" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-49" target="z25bvIHVXSk-q51-dX3u-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="630" />
+              <mxPoint x="590" y="239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-32" target="z25bvIHVXSk-q51-dX3u-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-32" value="The information is cleaned following the guidelines of the software and the type of data. This includes correcting date and column formats, removing cumulative totals, and handling missing or empty values." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="387" y="503.5" width="154" height="76.5" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-34" target="z25bvIHVXSk-q51-dX3u-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-34" value="Creation of the Parquet file with the processed information, which is stored locally." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="686" y="329" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-40" target="z25bvIHVXSk-q51-dX3u-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-36" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="z25bvIHVXSk-q51-dX3u-35" connectable="0" vertex="1">
+          <mxGeometry x="-0.52" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-40" target="z25bvIHVXSk-q51-dX3u-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="763" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-38" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="z25bvIHVXSk-q51-dX3u-37" connectable="0" vertex="1">
+          <mxGeometry x="-0.9243" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-39" value="Next file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=2" parent="z25bvIHVXSk-q51-dX3u-37" connectable="0" vertex="1">
+          <mxGeometry x="-0.2901" relative="1" as="geometry">
+            <mxPoint x="-73" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-40" value="Valid information." style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="713" y="189" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-42" target="z25bvIHVXSk-q51-dX3u-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-42" value="Loading the information into BigQuery in the &quot;ST&quot; (staging/pre-validation) tables." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="686" y="452" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-44" target="z25bvIHVXSk-q51-dX3u-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-44" value="Move the file in the bucket to the processed folder." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="686" y="513" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-46" target="z25bvIHVXSk-q51-dX3u-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-46" value="Upload the Parquet file to the bucket in the &quot;parquets&quot; folder." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="686" y="390" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#10739e;fillColor=#b1ddf0;strokeWidth=2;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-48" target="z25bvIHVXSk-q51-dX3u-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="593" />
+              <mxPoint x="940" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-48" value="Delete the local files." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="686" y="573" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-49" value="The DataFrame is standardized to match the standard structure of the information type. The data is aligned with equivalent columns in the standard, achieving alignment between the fields of the original software and the fields of the standard structure." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="388" y="599" width="152" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;strokeWidth=0.5;strokeColor=default;endArrow=none;endFill=0;" parent="z25bvIHVXSk-q51-dX3u-1" source="z25bvIHVXSk-q51-dX3u-51" target="z25bvIHVXSk-q51-dX3u-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-51" value="&lt;div&gt;Applied validations:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Ensure that all accounts are present in the PUC table.&lt;/div&gt;&lt;div&gt;2. Compare the total debit and credit values in the files.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;verticalAlign=top;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="960" y="202" width="120" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="z25bvIHVXSk-q51-dX3u-52" value="&lt;div&gt;Glossary of Terms.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Environment: The environment refers to the context and conditions in which a program runs, including variables, configurations, libraries, and resources available at that moment.&lt;/li&gt;&lt;li&gt;Credentials: Access keys to private resources.&lt;/li&gt;&lt;li&gt;Bucket: Container or storage space in the cloud, similar to a folder.&lt;/li&gt;&lt;li&gt;Pandas: Pandas is a Python programming library used for the analysis and manipulation of tabular data, such as spreadsheets and databases.&lt;/li&gt;&lt;li&gt;Dataframe: A DataFrame is a two-dimensional data structure in pandas (Python library), similar to a table in a database or a spreadsheet in Excel. It allows organizing and manipulating data efficiently in rows and columns.&lt;/li&gt;&lt;li&gt;Standard structure: It is a group of fields that collect the necessary information to analyze accounting information tests. There is one for each type of information.&lt;/li&gt;&lt;li&gt;Parquet file: Parquet is a columnar storage file format optimized for data analysis. It is commonly used in Big Data environments and distributed processing, as it allows efficient data reading and writing, along with effective compression, making it ideal for working with large datasets.&lt;/li&gt;&lt;li&gt;BigQuery: BigQuery is a Google Cloud service that provides a fully managed, highly scalable data warehouse for data analysis and SQL queries. It allows users to run queries on very large datasets quickly and efficiently, making it a powerful tool for large-scale data analysis.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;verticalAlign=top;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="z25bvIHVXSk-q51-dX3u-1" vertex="1">
+          <mxGeometry x="20" y="382.25" width="320" height="317.75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="P2 Español" id="f8bRLjy7mu4GBz5wl4wK">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-0" />
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-1" parent="BAz3ei-v3eBA-KBVCHBz-0" />
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-5" value="Configuración del entorno" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;container=0;align=left;verticalAlign=top;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="40" y="80" width="167" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-6" value="End" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=8;align=center;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="760" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BAz3ei-v3eBA-KBVCHBz-8" target="BAz3ei-v3eBA-KBVCHBz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-8" value="Inicio" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=8;align=center;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="91" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BAz3ei-v3eBA-KBVCHBz-10" target="BAz3ei-v3eBA-KBVCHBz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-10" value="Inicializa las variables del entorno&amp;nbsp;de producción por defecto." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="61" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BAz3ei-v3eBA-KBVCHBz-12" target="BAz3ei-v3eBA-KBVCHBz-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-12" value="Consulta las credenciales de los bloques de prefect." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="61" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BAz3ei-v3eBA-KBVCHBz-14" target="BAz3ei-v3eBA-KBVCHBz-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-14" value="Configura las variables de entorno según el parámetro de ejecución recibido." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="61" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BAz3ei-v3eBA-KBVCHBz-16" target="BAz3ei-v3eBA-KBVCHBz-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-16" value="Lista los nombres de los datasets en el BigQuery del entorno." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="44" y="320" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BAz3ei-v3eBA-KBVCHBz-19" target="BAz3ei-v3eBA-KBVCHBz-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BAz3ei-v3eBA-KBVCHBz-19" target="BAz3ei-v3eBA-KBVCHBz-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="464" y="10" />
+              <mxPoint x="790" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-19" value="Por cada dataset (cliente)" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;fontSize=8;fontFamily=Verdana;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="369" y="40" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BAz3ei-v3eBA-KBVCHBz-21" target="BKXZi488Cq-rTGxhwdl_-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="464" y="199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-21" value="Consulta los meses/años disponibles en las tablas de staging" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="387" y="110" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BAz3ei-v3eBA-KBVCHBz-23" target="BAz3ei-v3eBA-KBVCHBz-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-23" value="Se consultan las tablas de balance y movimiento del mes actual." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="387" y="254" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BKXZi488Cq-rTGxhwdl_-1" target="BAz3ei-v3eBA-KBVCHBz-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="464" y="239" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BAz3ei-v3eBA-KBVCHBz-27" target="BKXZi488Cq-rTGxhwdl_-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="464" y="423.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-27" value="Se consulta el balance del mes anterior" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="387" y="320" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BKXZi488Cq-rTGxhwdl_-2" target="BAz3ei-v3eBA-KBVCHBz-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="481.5" y="708.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="614" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-4" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-28">
+          <mxGeometry x="-0.0993" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BKXZi488Cq-rTGxhwdl_-22" target="BKXZi488Cq-rTGxhwdl_-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="1060" />
+              <mxPoint x="330" y="1060" />
+              <mxPoint x="330" y="206" />
+            </Array>
+            <mxPoint x="396.97" y="1058.97" as="sourcePoint" />
+            <mxPoint x="379.04328571428573" y="209.99857142857135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-39" value="Siguiente mes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=2" connectable="0" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-37">
+          <mxGeometry x="-0.2901" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#10739e;fillColor=#b1ddf0;strokeWidth=2;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BKXZi488Cq-rTGxhwdl_-1" target="BAz3ei-v3eBA-KBVCHBz-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="206" />
+              <mxPoint x="660" y="60" />
+            </Array>
+            <mxPoint x="840" y="593" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-31" value="Siguiente dataset" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" connectable="0" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-47">
+          <mxGeometry x="-0.8453" y="-1" relative="1" as="geometry">
+            <mxPoint x="74" y="-77" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-52" value="Glosario de términos.&lt;br&gt;&lt;br&gt;&lt;ol&gt;&lt;li&gt;Entorno:&amp;nbsp;el entorno se refiere al contexto y las condiciones en las que un programa se ejecuta, incluyendo variables, configuraciones, bibliotecas y recursos disponibles en ese momento.&lt;/li&gt;&lt;li&gt;Credenciales: Llaves de acceso a recursos privados.&lt;/li&gt;&lt;li&gt;Bucket: Contenedor o espacio de almacenamiento en la nube. Similar a una carpeta.&lt;/li&gt;&lt;li&gt;Pandas: Pandas es una biblioteca de programación en Python utilizada para el análisis y manipulación de datos tabulares, como hojas de cálculo y bases de datos.&lt;/li&gt;&lt;li&gt;Dataframe:Un DataFrame es una estructura de datos bidimensional en pandas (biblioteca de Python), similar a una tabla en una base de datos o una hoja de cálculo en Excel. Permite organizar y manipular datos en filas y columnas de manera eficiente.&lt;/li&gt;&lt;li&gt;Dataset:&amp;nbsp;En BigQuery, un dataset es un contenedor lógico que agrupa tablas, vistas y funciones. Proporciona un espacio organizativo para estructurar y gestionar conjuntos de datos relacionados dentro de un proyecto en Google Cloud. Cada dataset tiene propiedades y permisos específicos que pueden configurarse según las necesidades del usuario. El dataset está asociado por cada cliente o empresa.&lt;/li&gt;&lt;li&gt;BigQuery:&amp;nbsp;BigQuery es un servicio de Google Cloud que proporciona un almacén de datos totalmente administrado y altamente escalable para análisis de datos y consultas SQL. Permite a los usuarios ejecutar consultas en conjuntos de datos muy grandes de manera rápida y eficiente, lo que lo convierte en una herramienta poderosa para el análisis de datos a gran escala.&lt;/li&gt;&lt;li&gt;Tabla de staging: Tablas que tienen los datos procesados del software pero que aún necesitan ser validadas mes por mes para pasar a ser consultadas por los usuarios finales.&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;verticalAlign=top;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="40" y="380" width="260" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-1" value="Por cada mes" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;fontSize=8;fontFamily=Verdana;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="369" y="186" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BKXZi488Cq-rTGxhwdl_-2" target="BKXZi488Cq-rTGxhwdl_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-13" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="BKXZi488Cq-rTGxhwdl_-12">
+          <mxGeometry x="0.1684" y="4" relative="1" as="geometry">
+            <mxPoint x="-4" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-2" value="Mes == 1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="424" y="500" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BAz3ei-v3eBA-KBVCHBz-32" target="BKXZi488Cq-rTGxhwdl_-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465.5" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="613.5" y="710" />
+              <mxPoint x="465.5" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAz3ei-v3eBA-KBVCHBz-32" value="Se consulta la columna m50 de la tabla del &quot;PUC&quot;. Se eliminan las cuentas que en la m50&amp;nbsp;digan &quot;results&quot; (son cuentas que sus valores se reinician&amp;nbsp;en el primer mes del año)&amp;nbsp;del dataframe resultante de la validación de los balances." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="536.5" y="570" width="154" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BKXZi488Cq-rTGxhwdl_-6" target="BKXZi488Cq-rTGxhwdl_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-6" value="Se valida cuenta por cuenta que el saldo final del mes anterior sea igual al saldo inicial del mes actual, de los datos del balance. Se retorna un dataframe con las cuentas que tienen diferencias." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="382.5" y="399" width="163" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#10739e;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BKXZi488Cq-rTGxhwdl_-11" target="BKXZi488Cq-rTGxhwdl_-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-11" value="Se valida cuenta por cuenta que el valor de las transacciones en el movimiento sea igual al valor del movimiento de la cuenta en el balance. Se retorna un dataframe con las cuentas que tienen diferencias." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="387" y="742" width="154" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-22" value="Si los dataframe resultantes tienen alguna fila se hace un registro en BigQuery de cada cuenta con la diferencia encontrada indicando en que mes y archivo se encontró la diferencia. Además se indica en qué proceso de validación se encontró la diferencia." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="387" y="940" width="154" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-25" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#10739e;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BKXZi488Cq-rTGxhwdl_-23" target="BKXZi488Cq-rTGxhwdl_-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-26" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" connectable="0" vertex="1" parent="BKXZi488Cq-rTGxhwdl_-25">
+          <mxGeometry x="-0.7314" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#10739e;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#b1ddf0;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BKXZi488Cq-rTGxhwdl_-23" target="BKXZi488Cq-rTGxhwdl_-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-29" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" connectable="0" vertex="1" parent="BKXZi488Cq-rTGxhwdl_-28">
+          <mxGeometry x="-0.1057" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-23" value="Dataframes de diferencias con datos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="383.5" y="850" width="161" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-30" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#10739e;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#b1ddf0;strokeWidth=2;" edge="1" parent="BAz3ei-v3eBA-KBVCHBz-1" source="BKXZi488Cq-rTGxhwdl_-27" target="BKXZi488Cq-rTGxhwdl_-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="636" y="1060" />
+              <mxPoint x="330" y="1060" />
+              <mxPoint x="330" y="206" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKXZi488Cq-rTGxhwdl_-27" value="Se mueven los datos de las tablas de BL-ST y MV-ST del mes actual a las tablas de consulta final. Para que puedan ser consultados por el usuario final." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="BAz3ei-v3eBA-KBVCHBz-1">
+          <mxGeometry x="559" y="955" width="154" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="P2 Inglés" id="ZjfS8SWv-btSFdUmdpHI">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-0" />
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-1" parent="GO1w7EC4rvDPFKMjJgqW-0" />
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-3" value="End" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=8;align=center;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="GO1w7EC4rvDPFKMjJgqW-1" vertex="1">
+          <mxGeometry x="760" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#10739e;fillColor=#b1ddf0;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-13" target="GO1w7EC4rvDPFKMjJgqW-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-13" value="List the names of the datasets in the BigQuery environment." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="GO1w7EC4rvDPFKMjJgqW-1" vertex="1">
+          <mxGeometry x="44" y="320" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-16" target="GO1w7EC4rvDPFKMjJgqW-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-16" target="GO1w7EC4rvDPFKMjJgqW-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="464" y="10" />
+              <mxPoint x="790" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-16" value="For each dataset (client):" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;fontSize=8;fontFamily=Verdana;fillColor=#b1ddf0;strokeColor=#10739e;" parent="GO1w7EC4rvDPFKMjJgqW-1" vertex="1">
+          <mxGeometry x="369" y="40" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-18" target="GO1w7EC4rvDPFKMjJgqW-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="464" y="199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-18" value="Query the available months/years in the staging tables." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="GO1w7EC4rvDPFKMjJgqW-1" vertex="1">
+          <mxGeometry x="387" y="110" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-20" target="GO1w7EC4rvDPFKMjJgqW-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-20" value="Query the balance and movement tables for the current month." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="GO1w7EC4rvDPFKMjJgqW-1" vertex="1">
+          <mxGeometry x="387" y="254" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-31" target="GO1w7EC4rvDPFKMjJgqW-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="464" y="239" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-23" target="GO1w7EC4rvDPFKMjJgqW-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="464" y="423.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-23" value="Query the balance for the previous month." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="GO1w7EC4rvDPFKMjJgqW-1" vertex="1">
+          <mxGeometry x="387" y="320" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-34" target="GO1w7EC4rvDPFKMjJgqW-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="481.5" y="708.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="614" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-25" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GO1w7EC4rvDPFKMjJgqW-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.0993" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-41" target="GO1w7EC4rvDPFKMjJgqW-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="1060" />
+              <mxPoint x="330" y="1060" />
+              <mxPoint x="330" y="206" />
+            </Array>
+            <mxPoint x="396.97" y="1058.97" as="sourcePoint" />
+            <mxPoint x="379.04328571428573" y="209.99857142857135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-27" value="Next month" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=2" parent="GO1w7EC4rvDPFKMjJgqW-26" connectable="0" vertex="1">
+          <mxGeometry x="-0.2901" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#10739e;fillColor=#b1ddf0;strokeWidth=2;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-31" target="GO1w7EC4rvDPFKMjJgqW-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="206" />
+              <mxPoint x="660" y="60" />
+            </Array>
+            <mxPoint x="840" y="593" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-29" value="Next dataset" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="GO1w7EC4rvDPFKMjJgqW-28" vertex="1" connectable="0">
+          <mxGeometry x="-0.8453" y="-1" relative="1" as="geometry">
+            <mxPoint x="74" y="-77" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-30" value="&lt;div&gt;Glossary of Terms.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Environment: The environment refers to the context and conditions in which a program runs, including variables, configurations, libraries, and resources available at that moment.&lt;/li&gt;&lt;li&gt;Credentials: Access keys to private resources.&lt;/li&gt;&lt;li&gt;Bucket: Container or storage space in the cloud, similar to a folder.&lt;/li&gt;&lt;li&gt;Pandas: Pandas is a Python programming library used for the analysis and manipulation of tabular data, such as spreadsheets and databases.&lt;/li&gt;&lt;li&gt;Dataframe: A DataFrame is a two-dimensional data structure in pandas (Python library), similar to a table in a database or a spreadsheet in Excel. It allows organizing and manipulating data efficiently in rows and columns.&lt;/li&gt;&lt;li&gt;Dataset: In BigQuery, a dataset is a logical container that groups tables, views, and functions. It provides an organizational space to structure and manage related data sets within a project on Google Cloud. Each dataset has specific properties and permissions that can be configured according to the user&#39;s needs. The dataset is associated with each client or company.&lt;/li&gt;&lt;li&gt;BigQuery: BigQuery is a Google Cloud service that provides a fully managed, highly scalable data warehouse for data analysis and SQL queries. It allows users to run queries on very large datasets quickly and efficiently, making it a powerful tool for large-scale data analysis.&lt;/li&gt;&lt;li&gt;Staging Table: Tables that hold processed software data but still need to be validated month by month before being queried by end users.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;verticalAlign=top;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="GO1w7EC4rvDPFKMjJgqW-1" vertex="1">
+          <mxGeometry x="40" y="380" width="260" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-31" value="For each month:" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;fontSize=8;fontFamily=Verdana;fillColor=#b1ddf0;strokeColor=#10739e;" parent="GO1w7EC4rvDPFKMjJgqW-1" vertex="1">
+          <mxGeometry x="369" y="186" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-34" target="GO1w7EC4rvDPFKMjJgqW-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-33" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GO1w7EC4rvDPFKMjJgqW-32" vertex="1" connectable="0">
+          <mxGeometry x="0.1684" y="4" relative="1" as="geometry">
+            <mxPoint x="-4" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-34" value="Month == 1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="GO1w7EC4rvDPFKMjJgqW-1" vertex="1">
+          <mxGeometry x="424" y="500" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-36" target="GO1w7EC4rvDPFKMjJgqW-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465.5" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="613.5" y="710" />
+              <mxPoint x="465.5" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-36" value="Query column m50 from the &quot;PU&quot; table. Remove accounts from the resulting dataframe of the balance validation that have &quot;results&quot; in the m50 column (these are accounts whose values reset in the first month of the year)." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="GO1w7EC4rvDPFKMjJgqW-1" vertex="1">
+          <mxGeometry x="536.5" y="570" width="154" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-38" target="GO1w7EC4rvDPFKMjJgqW-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-38" value="Validate account by account that the final balance of the previous month is equal to the initial balance of the current month, from the balance data. Return a dataframe with accounts that have differences." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="GO1w7EC4rvDPFKMjJgqW-1" vertex="1">
+          <mxGeometry x="382.5" y="399" width="163" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-39" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#10739e;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#b1ddf0;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-40" target="GO1w7EC4rvDPFKMjJgqW-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-40" value="Validate account by account that the transaction value in the movement is equal to the movement value of the account in the balance. Return a dataframe with accounts that have differences." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="GO1w7EC4rvDPFKMjJgqW-1" vertex="1">
+          <mxGeometry x="387" y="742" width="154" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-41" value="If the resulting dataframes have any rows, a record is made in BigQuery for each account with the found difference, indicating in which month and file the difference was found. Additionally, it&#39;s indicated in which validation process the difference was found." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="GO1w7EC4rvDPFKMjJgqW-1" vertex="1">
+          <mxGeometry x="387" y="940" width="154" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-42" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#10739e;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#b1ddf0;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-46" target="GO1w7EC4rvDPFKMjJgqW-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-43" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="GO1w7EC4rvDPFKMjJgqW-42" vertex="1" connectable="0">
+          <mxGeometry x="-0.7314" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-44" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#10739e;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#b1ddf0;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-46" target="GO1w7EC4rvDPFKMjJgqW-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-45" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="GO1w7EC4rvDPFKMjJgqW-44" vertex="1" connectable="0">
+          <mxGeometry x="-0.1057" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-46" value="Dataframes of differences with data." style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="GO1w7EC4rvDPFKMjJgqW-1" vertex="1">
+          <mxGeometry x="383.5" y="850" width="161" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-47" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#10739e;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#b1ddf0;strokeWidth=2;" parent="GO1w7EC4rvDPFKMjJgqW-1" source="GO1w7EC4rvDPFKMjJgqW-48" target="GO1w7EC4rvDPFKMjJgqW-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="636" y="1060" />
+              <mxPoint x="330" y="1060" />
+              <mxPoint x="330" y="206" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GO1w7EC4rvDPFKMjJgqW-48" value="Move the data from the BL-ST and MV-ST tables of the current month to the final query tables, so that they can be accessed by the end user." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="GO1w7EC4rvDPFKMjJgqW-1" vertex="1">
+          <mxGeometry x="559" y="955" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyKqH-rvNLMYxYOiZFYh-0" value="Environment configuration" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;container=0;align=left;verticalAlign=top;" vertex="1" parent="GO1w7EC4rvDPFKMjJgqW-1">
+          <mxGeometry x="40" y="80" width="167" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="iyKqH-rvNLMYxYOiZFYh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="GO1w7EC4rvDPFKMjJgqW-1" source="iyKqH-rvNLMYxYOiZFYh-2" target="iyKqH-rvNLMYxYOiZFYh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyKqH-rvNLMYxYOiZFYh-2" value="Start" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=8;align=center;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="GO1w7EC4rvDPFKMjJgqW-1">
+          <mxGeometry x="91" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iyKqH-rvNLMYxYOiZFYh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="GO1w7EC4rvDPFKMjJgqW-1" source="iyKqH-rvNLMYxYOiZFYh-4" target="iyKqH-rvNLMYxYOiZFYh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyKqH-rvNLMYxYOiZFYh-4" value="Initialize the default production environment variables." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GO1w7EC4rvDPFKMjJgqW-1">
+          <mxGeometry x="61" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iyKqH-rvNLMYxYOiZFYh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="GO1w7EC4rvDPFKMjJgqW-1" source="iyKqH-rvNLMYxYOiZFYh-6" target="iyKqH-rvNLMYxYOiZFYh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyKqH-rvNLMYxYOiZFYh-6" value="Retrieve the credentials for the Prefect blocks." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GO1w7EC4rvDPFKMjJgqW-1">
+          <mxGeometry x="61" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iyKqH-rvNLMYxYOiZFYh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" edge="1" parent="GO1w7EC4rvDPFKMjJgqW-1" source="iyKqH-rvNLMYxYOiZFYh-8" target="GO1w7EC4rvDPFKMjJgqW-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="121" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyKqH-rvNLMYxYOiZFYh-8" value="Configure the environment variables according to the received execution parameter." style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GO1w7EC4rvDPFKMjJgqW-1">
+          <mxGeometry x="61" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
